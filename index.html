@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Alumunite</title>
+</head>
+<body>
+    <div class="toggle">
+        <i id="toggle-icon" class="bi bi-list"></i>
+    </div>
+    <div class="container">
+    <!-- Dashboard -->
+    <aside class="dashboard">
+        <div>
+            <img src="assets/Logo.png" alt="Alumunite logo">
+        </div>
+        <div class="text">
+            <p><i class="bi bi-arrow-left"></i>Back to Login</p>
+            <div class="steps">
+                <div>
+                    <span class="completed">&check;</i></span>
+                    <span class="completed-text">Personal Data</sp>
+                </div>
+                <div class="vertical"></div>
+                <div>
+                    <span class="step"><i class="bi"></i>2</span>
+                    <span class="step-text">Alumni Data</span> <br>
+                    <p class="step-info">Select an account type to customize your Alumunite experience.</p>
+                </div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="assets/Layer 2.png" alt="Svg image">
+        </div>
+    </aside>
+
+    <!-- Form for collecting user data -->
+    <section>
+        <h2>School Information</h2>
+        <div class="user-data">
+            <form action="#">
+                <div>
+                    <label for="school">Select a school you graduated from</label>
+                    <select name="school" id="school">
+                        <option value="Faith Academy">Faith Academy</option>
+                        <option value="Hope Academy">Hope Academy</option>
+                        <option value="Love Academy">Love Academy</option>
+                    </select>
+                    <p>Can't find your school? <span class="blue-text">Add your school to the list.</span></p>
+                </div>
+
+                <div>
+                    <input type="radio" id="still-schooling">
+                    <label for="still-schooling">Still schooling here presently</label>
+                </div>
+
+                <div>
+                    <label for="year-graduated">Year graduated</label>
+                    <input type="date" id="year-graduated">
+                </div>
+            </form>
+            
+            <form action="#">
+                <div>
+                    <label for="school2">Select a school you graduated from</label>
+                    <select name="school2" id="school2">
+                        <option value="Faith Academy">Faith Academy</option>
+                        <option value="Hope Academy">Hope Academy</option>
+                        <option value="Love Academy">Love Academy</option>
+                    </select>
+                    <p>Can't find your school?<span class="blue-text">Add your school to the list.</span></p>
+                </div>
+
+                <div>
+                    <label for="still-schooling2"><input type="radio" id="still-schooling2">Still schooling here presently</label> <br>
+                </div>
+
+                <div>
+                    <label for="year-graduated2">Year graduated</label>
+                    <input type="date" id="year-graduated2">
+                </div>
+            </form>
+
+            <div>
+                <i class="bi bi-mortarboard-fill"></i>
+                <p class="add">
+                    Add Another School
+                    <br>
+                    <span>More schools means more connections</span>
+                </p>
+                <i class="bi bi-plus-circle"></i>
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
